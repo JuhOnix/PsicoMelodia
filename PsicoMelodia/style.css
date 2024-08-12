@@ -17,16 +17,37 @@ body{
 
 .principal{
     background-image: url("img/Fundo.png");
+    align-items: center;
+    text-align: center;
+}
+
+.container-caixa{
+    margin: 10px;
+    padding: 30px;
+ 
+}
+
+.container-titulo{
+    margin: 10px;
+    padding: 20px;
+    
 }
 
 .container{
     height: 100vh;
+    margin: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     display: grid;
     grid-template-columns: 50% 50%;
+  
+}
+
+.separar{
+    padding: 50px;
 }
 
 .container-botao{
     display:block;
+    margin: 5px;
 }
