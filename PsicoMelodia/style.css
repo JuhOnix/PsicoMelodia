@@ -73,6 +73,10 @@ body{
     margin: 5px;
 }
 
+.container-descricao-2{
+    margin: 20px;
+}
+
 .terciario{
     align-items: center;
     margin: 15px;
@@ -80,5 +84,40 @@ body{
 
 .terciario-imagem{
     width: 70%;
-    padding: 50px;
+    margin: 20px;
+}
+
+.container-terciario{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 230px;
+}
+
+.quartenario{
+    align-items: center;
+    margin: 15px;
+}
+
+.quartenario-imagem{
+    width: 60%;
+    margin: 60px;
+}
+
+.container-quartenario{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 230px;
+}
+
+.container-descricao{
+    margin: 30px;
+}
+
+.descricao-titulo-4{
+    margin-bottom: 0.7em;
+    font-weight: 2000;
+    font-size: 33px;
+    color: var(--cor-principal);
 }
